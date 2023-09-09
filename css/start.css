@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    background-color: black;
+    font-family: 'Gargoyles', sans-serif; /* Usar la fuente personalizada y una fuente de respaldo */
+}
+
+.boton {
+    text-align: center;
+    margin-top: 200px;
+}
+.boton a {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: red;
+    border-radius: 100px;
+    color: black;
+    font-size: 50px;
+}
+
+.texto {
+    margin-top: 70px;
+    text-align: center;
+    color: red;
+    font-size: 40PX;
+}
+
+.foto {
+    text-align: center;
+}
+
+.foto img {
+    margin-top:0px;
+    width: 200px;
+}
