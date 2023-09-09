@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'Gargoyles'; /* Nombre de la fuente */
+    src: url('/PeliTV/css/Anton-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    background-color: black;
+    font-family: 'Gargoyles', sans-serif; /* Usar la fuente personalizada y una fuente de respaldo */
+}
+
+header {
+    background-image: url(/PeliTV/img/Tekken-Bloodline-cover.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    display: flex;
+    
+}
+
+
+.pelis {
+    margin-top: 30px;
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.pelis > a{
+    text-decoration: none;
+    background-image: linear-gradient( red, black);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+hr {
+    border: 1px solid red;
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.boton {
+    background-color: purple;
+    border-color: purple;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+
+}
+
+.mas {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 2%;
+    background-color: black;
+    text-align: center;
+}
+
+	.redes-sociales a {
+		color: green;
+		font-size: 2rem;
+		margin: 0 10px;
+		padding: 5px;
+		display: inline-block;
+    
+	}
+
+body>footer>div>a:nth-child(3)>i {
+    color: red;
+}
+
+
+body>footer>div>a:nth-child(2)>i {
+    color: #DD2A7B;
+}
+
+
+body>footer>div>a:nth-child(1)>i {
+    color: #3B5998;
+}
+
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+.bio  {
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+    color: white;
+    margin-left: 430px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+.name {
+    text-align: left;
+}
+
+
+img {
+    width: 400px;
+    height: 284px;
+    margin: 2px;
+    text-align: center;
+
+}
+
+
+.number {
+    margin-top: 10px;
+    display: flex;
+}
+
+
+
+@media (max-width: 490px) {
+
+
+    @font-face {
+        font-family: 'Gargoyles'; /* Nombre de la fuente */
+        src: url('/PeliTV/css/Anton-Regular.ttf') format('truetype');
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        
+    }
+    
+    body {
+        background-color: black;
+        font-family: 'Gargoyles', sans-serif; /* Usar la fuente personalizada y una fuente de respaldo */
+    }
+    
+    header {
+        background-image: url(/PeliTV/img/Tekken-Bloodline-cover.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 700px;
+        display: flex;
+        
+    }
+    
+    
+    .pelis {
+        margin-top: 30px;
+        color: white;
+        margin-left: 50px;
+        text-align: center;
+    }
+    
+    .pelis > a{
+        text-decoration: none;
+        background-image: linear-gradient( red, black);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+    
+    hr {
+        border: 1px solid red;
+        width: 200px;
+        margin-bottom: 40px;
+    }
+    
+    .boton {
+        background-color: purple;
+        border-color: purple;
+        border-radius: 50px;
+        color: white;
+        padding: 10px;
+    
+    }
+    
+    .mas {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    footer {
+        margin-top: 50px;
+        padding: 2%;
+        background-color: black;
+        text-align: center;
+    }
+    
+        .redes-sociales a {
+            color: green;
+            font-size: 2rem;
+            margin: 0 10px;
+            padding: 5px;
+            display: inline-block;
+        
+        }
+    
+    body>footer>div>a:nth-child(3)>i {
+        color: red;
+    }
+    
+    
+    body>footer>div>a:nth-child(2)>i {
+        color: #DD2A7B;
+    }
+    
+    
+    body>footer>div>a:nth-child(1)>i {
+        color: #3B5998;
+    }
+    
+    
+    a:hover, a:focus {
+        background-size: 100% 2px;
+    }
+    
+    .bio  {
+        text-align: center;
+        font-size: 100px;
+        margin: auto;
+        color: white;
+        margin-left: 430px;
+    }
+    
+    .logo {
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    
+    
+    .name {
+        text-align: left;
+    }
+    
+    
+    img {
+        width: 100px;
+        height: 184px;
+        margin-bottom: 4px;
+        text-align: center;
+    
+    }
+    
+    
+    .number {
+        margin-top: 10px;
+        display: flex;
+    }
+    
+    
+
+}

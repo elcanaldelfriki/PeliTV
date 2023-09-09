@@ -1,0 +1,541 @@
+@font-face {
+  font-family: 'Gargoyles'; /* Nombre de la fuente */
+  src: url('/PeliTV/css/Anton-Regular.ttf') format('truetype');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+body {
+    background-color: black;
+    font-family: 'Gargoyles', sans-serif; /* Usar la fuente personalizada y una fuente de respaldo */
+}
+
+
+.pelis {
+    margin-top: 30px;
+    color: white;
+    margin-left: 50px;
+    text-align: center;
+
+}
+
+.pelis > a{
+    text-decoration: none;
+    background-image: linear-gradient( white, white);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+hr {
+    border: 1px solid purple;
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.boton {
+    background-color: purple;
+    border-color: purple;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+
+}
+
+.mas {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 2%;
+    background-color: black;
+    text-align: center;
+}
+
+	.redes-sociales a {
+		color: green;
+		font-size: 2rem;
+		margin: 0 10px;
+		padding: 5px;
+		display: inline-block;
+    
+	}
+
+body>footer>div>a:nth-child(3)>i {
+    color: red;
+}
+
+
+body>footer>div>a:nth-child(2)>i {
+    color: #DD2A7B;
+}
+
+
+body>footer>div>a:nth-child(1)>i {
+    color: #3B5998;
+}
+
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+.bio  {
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+    color: white;
+    margin-left: 430px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+
+.name {
+    text-align: left;
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
+
+.hamburger-icon {
+  position: absolute;
+  z-index: 1;
+  top: 5vh;
+  left: 5vw;
+  padding-bottom: 2vh;
+}
+
+.hamburger-icon span {
+  height: 5px;
+  width: 40px;
+  background-color: white;
+  display: block;
+  margin: 5px 0px 5px 0px;
+  transition: 0.7s ease-in-out;
+  transform: none;
+}
+
+#openmenu:checked ~ .menu-pane {
+  left: -5vw;
+  transform: translateX(-5vw);
+}
+
+#openmenu:checked ~ .body-text {
+display: none;
+}
+
+#openmenu:checked ~ .hamburger-icon span:nth-of-type(2) {
+  transform: translate(0%, 175%) rotate(-45deg);
+  background-color: white;
+}
+
+#openmenu:checked ~ .hamburger-icon span:nth-of-type(3) {
+  transform: rotate(45deg);
+  background-color: white;
+}
+
+#openmenu:checked ~ .hamburger-icon span:nth-of-type(1) {
+  opacity: 0;
+}
+
+#openmenu:checked ~ .hamburger-icon span:nth-of-type(4) {
+  opacity: 0;
+}
+
+div.menu-pane {
+  background-color: black;
+  position: absolute;
+  transform: translateX(-105vw);
+  transform-origin: (0, 0);
+  width: 100vw;
+  height: 100%;
+  transition: 0.6s ease-in-out;
+}
+
+.menu-pane p {
+  color:black;
+  font-size: 0.6em;
+}
+
+.menu-pane nav {
+  padding: 10%;
+}
+
+.menu-links li, a, span {
+      transition: 0.5s ease-in-out;
+}
+
+.menu-pane ul {
+  padding: 10%;
+  display: inline-block;
+}
+
+.menu-pane li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 10px;
+    font-size: 1em;
+}
+
+
+.menu-pane li:first-child {
+  font-size: 1.3em;
+  margin-left: -10px;
+}
+
+
+.menu-links li a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.menu-links li:hover a {
+  color: white;
+  font-size: 80px;
+}
+
+.menu-links li:first-child:hover a {
+  color: black;  
+  background-color: white;
+}
+
+#QC-info {
+  background-color: purple;
+    border: 2px solid;
+  border-color: black;
+display: block;
+  opacity: 0;
+  
+}
+
+.menu-links li:first-child:hover #QC-info {
+opacity: 1;
+}
+
+.menu-links li:first-child:hover #DC-info {
+opacity: 1;
+}
+
+#DC-info {
+  background-color: purple;
+    border: 2px solid;
+  border-color: black;
+display: block;
+  opacity: 0;
+}
+
+
+.menu-links li:first-child a {
+  padding: 5px;
+}
+
+
+
+input.hamburger-checkbox {
+  position: absolute;
+  z-index: 3;
+  top: 5vh;
+  left: 5vw;
+  width: 10vw;
+  opacity: 0;
+  height: 6vh;
+}
+
+img {
+  width: 200px;
+  height: 284px;
+}
+
+
+
+
+@media (max-width: 400px) {
+
+  @font-face {
+    font-family: 'Gargoyles'; /* Nombre de la fuente */
+    src: url('/PeliTV/css/Anton-Regular.ttf') format('truetype');
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      
+  }
+  
+  body {
+      background-color: black;
+      font-family: 'Gargoyles', sans-serif; /* Usar la fuente personalizada y una fuente de respaldo */
+  }
+  
+  
+  .pelis {
+      margin-top: 30px;
+      color: white;
+      margin-left: 50px;
+      text-align: center;
+  
+  }
+  
+  .pelis > a{
+      text-decoration: none;
+      background-image: linear-gradient( white, white);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2px;
+      transition: background-size .3s;
+  }
+  
+  hr {
+      border: 1px solid purple;
+      width: 200px;
+      margin-bottom: 40px;
+  }
+  
+  .boton {
+      background-color: purple;
+      border-color: purple;
+      border-radius: 50px;
+      color: white;
+      padding: 10px;
+  
+  }
+  
+  .mas {
+      margin-top: 20px;
+      text-align: center;
+  }
+  
+  footer {
+      margin-top: 50px;
+      padding: 2%;
+      background-color: black;
+      text-align: center;
+  }
+  
+    .redes-sociales a {
+      color: green;
+      font-size: 2rem;
+      margin: 0 10px;
+      padding: 5px;
+      display: inline-block;
+      
+    }
+  
+  body>footer>div>a:nth-child(3)>i {
+      color: red;
+  }
+  
+  
+  body>footer>div>a:nth-child(2)>i {
+      color: #DD2A7B;
+  }
+  
+  
+  body>footer>div>a:nth-child(1)>i {
+      color: #3B5998;
+  }
+  
+  
+  a:hover, a:focus {
+      background-size: 100% 2px;
+  }
+  
+  .bio  {
+      text-align: center;
+      font-size: 100px;
+      margin: auto;
+      color: white;
+      margin-left: 430px;
+  }
+  
+  .logo {
+      width: 70px;
+      height: 70px;
+      margin-top: 10px;
+      margin-left: 30px;
+  }
+  
+  
+  .name {
+      text-align: left;
+  }
+  
+  
+  
+  
+  
+  
+  @import url('https://fonts.googleapis.com/css?family=Libre+Caslon+Text:400,700&display=swap');
+  
+  .hamburger-icon {
+    position: absolute;
+    z-index: 1;
+    top: 5vh;
+    left: 5vw;
+    padding-bottom: 1vh;
+  }
+  
+  .hamburger-icon span {
+    height: 5px;
+    width: 25px;
+    background-color: white;
+    display: block;
+    margin: 5px 0px 5px 0px;
+    transition: 0.7s ease-in-out;
+    transform: none;
+  }
+  
+  #openmenu:checked ~ .menu-pane {
+    left: -5vw;
+    transform: translateX(-5vw);
+  }
+  
+  #openmenu:checked ~ .body-text {
+  display: none;
+  }
+  
+  #openmenu:checked ~ .hamburger-icon span:nth-of-type(2) {
+    transform: translate(0%, 175%) rotate(-45deg);
+    background-color: white;
+  }
+  
+  #openmenu:checked ~ .hamburger-icon span:nth-of-type(3) {
+    transform: rotate(45deg);
+    background-color: white;
+  }
+  
+  #openmenu:checked ~ .hamburger-icon span:nth-of-type(1) {
+    opacity: 0;
+  }
+  
+  #openmenu:checked ~ .hamburger-icon span:nth-of-type(4) {
+    opacity: 0;
+  }
+  
+  div.menu-pane {
+    background-color: black;
+    position: absolute;
+    transform: translateX(-105vw);
+    transform-origin: (0, 0);
+    width: 100vw;
+    height: 100%;
+    transition: 0.6s ease-in-out;
+  }
+  
+  .menu-pane p {
+    color:black;
+    font-size: 0.6em;
+  }
+  
+  .menu-pane nav {
+    padding: 10%;
+  }
+  
+  .menu-links li, a, span {
+        transition: 0.5s ease-in-out;
+  }
+  
+  .menu-pane ul {
+    padding: 10%;
+    display: inline-block;
+  }
+  
+  .menu-pane li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+      font-size: 1em;
+  }
+  
+  
+  .menu-pane li:first-child {
+    font-size: 1.3em;
+    margin-left: -10px;
+  }
+  
+  
+  .menu-links li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+  .menu-links li:hover a {
+    color: white;
+    font-size: 80px;
+  }
+  
+  .menu-links li:first-child:hover a {
+    color: black;  
+    background-color: white;
+  }
+  
+  #QC-info {
+    background-color: purple;
+      border: 2px solid;
+    border-color: black;
+  display: block;
+    opacity: 0;
+    
+  }
+  
+  .menu-links li:first-child:hover #QC-info {
+  opacity: 1;
+  }
+  
+  .menu-links li:first-child:hover #DC-info {
+  opacity: 1;
+  }
+  
+  #DC-info {
+    background-color: purple;
+      border: 2px solid;
+    border-color: black;
+  display: block;
+    opacity: 0;
+  }
+  
+  
+  .menu-links li:first-child a {
+    padding: 5px;
+  }
+  
+  
+  
+  input.hamburger-checkbox {
+    position: absolute;
+    z-index: 3;
+    top: 5vh;
+    left: 5vw;
+    width: 10vw;
+    opacity: 0;
+    height: 6vh;
+  }
+  
+  img {
+    width: 80px;
+    height: 184px;
+  }
+  
+  
+}

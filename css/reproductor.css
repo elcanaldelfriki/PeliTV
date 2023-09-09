@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Gargoyles'; /* Nombre de la fuente */
+    src: url('/PeliTV/css/Anton-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    font-family: 'Gargoyles', sans-serif; /* Usar la fuente personalizada y una fuente de respaldo */
+
+}
+
+.pelis {
+    margin-top: 30px;
+    color: white;
+    margin-left: 50px;
+}
+
+hr {
+    border: 1px solid black;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+
+.video {
+    text-align: center;
+
+}
+
+iframe {
+    border: 10px solid white;
+    width: 1280px;
+    height: 720px;
+}
+
+.boton {
+    background-color:black;
+    border-color: red;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+
+}
+
+
+.boton1 {
+    background-color:black;
+    border-color: red;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+
+}
+
+.avz {
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+@media (max-width: 400px) {
+
+    @font-face {
+    font-family: 'Gargoyles'; /* Nombre de la fuente */
+    src: url('/PeliTV/css/Anton-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    font-family: 'Gargoyles', sans-serif; /* Usar la fuente personalizada y una fuente de respaldo */
+
+}
+
+.pelis {
+    margin-top: 30px;
+    color: white;
+    margin-left: 10px;
+}
+
+hr {
+    border: 1px solid black;
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+
+.video {
+    text-align: center;
+
+}
+
+iframe {
+    border: 10px solid white;
+    width: 300px;
+    height: 320px;
+}
+
+.boton {
+    background-color:black;
+    border-color: red;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+
+}
+
+
+.boton1 {
+    background-color:black;
+    border-color: red;
+    border-radius: 50px;
+    color: white;
+    padding: 10px;
+
+}
+
+.avz {
+    margin: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+}
